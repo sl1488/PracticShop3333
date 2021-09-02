@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Gilroy-Extrabold",
+    sans-serif;
+    src: url('../fonts/Gilroy-Extrabold.woff2') format('woff2'),
+    url('../fonts/Gilroy-Extrabold.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-Bold",
+        sans-serif;
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-Semibold",
+        sans-serif;
+    src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Semibold.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-Regular",
+        sans-serif;
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot');
+    src: url('../fonts/icomoon.eot') format('embedded-opentype'),
+        url('../fonts/icomoon.svg') format('svg'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1;
+    speak-as: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search::before {
+content: "\f002";
+}
+
+.icon-heart::before {
+    content: "\f004";
+}
+
+.icon-user::before {
+    content: "\f007";
+}
+
+.icon-close::before {
+    content: "\f00d";
+}
+
+.icon-home::before {
+    content: "\f015";
+}
+
+.icon-chevron-left::before {
+    content: "\f053";
+}
+
+.icon-chevron-right::before {
+    content: "\f054";
+}
+
+.icon-shopping-cart::before {
+    content: "\f07a";
+}
+
+.icon-heart-o::before {
+    content: "\f08a";
+}
