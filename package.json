@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/sl1488/PracticShop3333#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
     "jquery-form-styler": "^2.0.2",
@@ -31,9 +34,7 @@
     "normalize.css": "^8.0.1",
     "sass": "^1.38.2",
     "slick-carousel": "^1.8.1",
-    "browser-sync": "^2.27.5",
-    "del": "^6.0.0",
-    "gulp-rename": "^2.0.0"
+    "cssmin": "^0.4.3"
   },
   "dependencies": {
     "rateyo": "^3.0.0-alpha.2"
