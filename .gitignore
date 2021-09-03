@@ -29,6 +29,7 @@ build/Release
 #Production
 /build
 /dist
+app/css/
 
 #Dependency directories 
 node_modules/
