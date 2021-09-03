@@ -17,4 +17,13 @@ $(function () {
     const header = document.querySelector('.header__top-inner');
     header.classList.toggle('sticky', window.scrollY > 0);
   });
+
+  //slider
+  $('.slider__inner').slick({
+    dots: true,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+  });
 });
